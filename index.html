@@ -220,6 +220,31 @@ button.full { width: 100%; margin-top: 4px; }
   .topbar .tb button { min-height:40px; }
   .staff { height:68vh; }
 }
+
+/* Phone-only refinement v2: desktop/tablet and music engine untouched. */
+@media (max-width:600px) {
+  *, *::before, *::after { box-sizing:border-box; }
+  html, body, #app { max-width:100%; }
+  .topbar { flex-wrap:wrap; align-items:center; }
+  .topbar .brand { flex:1 1 100%; width:100%; }
+  .topbar .tb { flex:1 1 100%; min-width:0; grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .topbar .tb button { font-size:13px; min-height:44px; padding:10px 6px; overflow-wrap:anywhere; }
+  .main, .editor, .modebar, .tabs, .panel, .meta, .staff { max-width:100%; min-width:0; }
+  .modebar, .tabs, .panel { flex-wrap:wrap; overflow-x:auto; }
+  .modebar button, .tab, .grp button, .emb-wrap button { min-height:44px; }
+  .meta { grid-template-columns:minmax(0,1fr); }
+  .meta label, .meta label:first-child { grid-column:auto; min-width:0; }
+  .meta input, .meta select { max-width:100%; }
+  .grp { min-width:0; flex-wrap:wrap; }
+  .staff { height:48dvh; min-height:270px; overscroll-behavior-x:contain; }
+  .staff svg, .staff canvas { max-width:none; }
+  .dlg { width:calc(100vw - 20px); max-width:calc(100vw - 20px); }
+}
+@media (max-width:380px) {
+  .brand .band { font-size:13px; }
+  .topbar .tb button { font-size:12px; }
+  .panel { padding:6px 4px; }
+}
 </style>
 </head>
 <body>
