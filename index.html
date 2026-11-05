@@ -175,6 +175,51 @@ button.full { width: 100%; margin-top: 4px; }
 #helpBody:focus, #helpBody:focus-visible { outline: none; }
 #helpBody { padding-right: 4px; }
 
+
+/* Phone-first responsive enhancements — desktop application logic unchanged. */
+.mobile-library-toggle { display:none; }
+@media (max-width: 600px) {
+  html, body { min-width:0; width:100%; overflow-x:hidden; }
+  #app { min-height:100dvh; height:auto; width:100%; }
+  .topbar { padding:8px; gap:8px; border-left-width:3px; }
+  .brand { min-width:0; white-space:normal; }
+  .brand .band { font-size:14px; line-height:1.2; }
+  .brand .app { font-size:10px; }
+  .brand .logo { width:36px; height:36px; }
+  .topbar .tb { width:100%; display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:5px; }
+  .topbar .tb button { white-space:normal; min-width:0; padding:9px 3px; font-size:11px; min-height:42px; }
+  .main { display:flex; flex-direction:column; min-width:0; }
+  .mobile-library-toggle { display:flex; align-items:center; justify-content:space-between; width:100%; padding:11px 14px; min-height:44px; border-radius:0; background:#e8f3ed; color:var(--accent); border-bottom:1px solid var(--border); }
+  .lib { display:none; width:100%; max-height:270px; padding:8px; }
+  .main.mobile-library-open .lib { display:flex; }
+  .liblist { min-height:100px; }
+  .editor { min-width:0; width:100%; }
+  .meta { grid-template-columns:repeat(2,minmax(0,1fr)); gap:6px; padding:8px; }
+  .meta label:first-child { grid-column:1 / -1; }
+  .meta input, .meta select { width:100%; min-height:38px; font-size:16px; }
+  .modebar { padding:7px 6px; gap:5px; }
+  .modebar button { min-height:40px; padding:7px 9px; }
+  .modebar .sep { display:none; }
+  .mini { min-height:36px; }
+  .tabs { padding:6px 5px 0; gap:4px; }
+  .tab { min-height:40px; padding:8px 9px; }
+  .panel { padding:8px 5px; gap:6px; }
+  .grp { max-width:100%; padding:6px; gap:5px; }
+  .grp button, .emb-wrap button { min-height:39px; padding:7px 9px; }
+  .emb-wrap { width:100%; }
+  .emb-wrap .grp { max-width:100%; }
+  .staff { flex:none; height:54dvh; min-height:310px; width:100%; overflow:auto; -webkit-overflow-scrolling:touch; touch-action:pan-x pan-y; }
+  .status { min-height:35px; padding:8px; }
+  .dlg { max-width:calc(100vw - 16px); max-height:90dvh; overflow:auto; padding:12px; }
+  .dlg form > label:not(.chk) { grid-template-columns:1fr; gap:3px; }
+  .wide, .wide-text { width:calc(100vw - 16px); height:90dvh; max-height:90dvh; }
+  .sheet-grid { grid-template-columns:minmax(0,1fr); overflow:auto; }
+  .preview { min-height:200px; }
+}
+@media (min-width:601px) and (max-width:900px) {
+  .topbar .tb button { min-height:40px; }
+  .staff { height:68vh; }
+}
 </style>
 </head>
 <body>
@@ -194,6 +239,7 @@ button.full { width: 100%; margin-top: 4px; }
   </header>
 
   <div class="main">
+    <button class="mobile-library-toggle" type="button" aria-expanded="false" aria-controls="libList" onclick="const m=this.closest('.main'); const opened=m.classList.toggle('mobile-library-open'); this.setAttribute('aria-expanded',String(opened)); this.textContent=opened?'▾ My Tunes — Hide Library':'▸ My Tunes — Show Library';">▸ My Tunes — Show Library</button>
     <aside class="lib">
       <div class="lib-h"><span>MY TUNES</span><span id="libCount" class="muted"></span></div>
       <ul id="libList" class="liblist" tabindex="0" aria-label="Saved tunes"></ul>
