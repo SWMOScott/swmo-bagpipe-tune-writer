@@ -1,0 +1,781 @@
+{
+  "format": "bagpipe-tune-writer",
+  "version": 1,
+  "tune": {
+    "id": "1780868678.275064",
+    "title": "The Shoals of Herring",
+    "composer": "",
+    "type": "Retreat March",
+    "time_sig": "3/4",
+    "tempo": 80,
+    "measures": [
+      {
+        "notes": [
+          {
+            "pitch": "LA",
+            "duration": "dotted_eighth",
+            "embellishment": "gg",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "C",
+            "duration": "cut_eighth",
+            "embellishment": "dg",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "E",
+            "duration": "quarter",
+            "embellishment": "dbe",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "C",
+            "duration": "eighth",
+            "embellishment": "dbc",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "E",
+            "duration": "eighth",
+            "embellishment": "none",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          }
+        ],
+        "time_sig": "3/4",
+        "repeat_start": true,
+        "repeat_end": false,
+        "first_volta": false,
+        "second_volta": false
+      },
+      {
+        "notes": [
+          {
+            "pitch": "F",
+            "duration": "eighth",
+            "embellishment": "gg",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "HA",
+            "duration": "eighth",
+            "embellishment": "none",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "F",
+            "duration": "dotted_eighth",
+            "embellishment": "hdbf",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "E",
+            "duration": "cut_eighth",
+            "embellishment": "none",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "C",
+            "duration": "quarter",
+            "embellishment": "dbc",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          }
+        ],
+        "time_sig": "3/4",
+        "repeat_start": false,
+        "repeat_end": false,
+        "first_volta": false,
+        "second_volta": false
+      },
+      {
+        "notes": [
+          {
+            "pitch": "LA",
+            "duration": "dotted_eighth",
+            "embellishment": "gg",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "C",
+            "duration": "cut_eighth",
+            "embellishment": "dg",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "E",
+            "duration": "quarter",
+            "embellishment": "dbe",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "C",
+            "duration": "eighth",
+            "embellishment": "none",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "E",
+            "duration": "eighth",
+            "embellishment": "none",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          }
+        ],
+        "time_sig": "3/4",
+        "repeat_start": false,
+        "repeat_end": false,
+        "first_volta": false,
+        "second_volta": false
+      },
+      {
+        "notes": [
+          {
+            "pitch": "HA",
+            "duration": "eighth",
+            "embellishment": "hdbha",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "C",
+            "duration": "eighth",
+            "embellishment": "none",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "C",
+            "duration": "quarter",
+            "embellishment": "dbc",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "B",
+            "duration": "quarter",
+            "embellishment": "eg",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          }
+        ],
+        "time_sig": "3/4",
+        "repeat_start": false,
+        "repeat_end": false,
+        "first_volta": false,
+        "second_volta": false
+      },
+      {
+        "notes": [
+          {
+            "pitch": "LA",
+            "duration": "dotted_eighth",
+            "embellishment": "gg",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "C",
+            "duration": "cut_eighth",
+            "embellishment": "dg",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "E",
+            "duration": "quarter",
+            "embellishment": "dbe",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "C",
+            "duration": "eighth",
+            "embellishment": "dbc",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "E",
+            "duration": "eighth",
+            "embellishment": "none",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          }
+        ],
+        "time_sig": "3/4",
+        "repeat_start": false,
+        "repeat_end": false,
+        "first_volta": false,
+        "second_volta": false
+      },
+      {
+        "notes": [
+          {
+            "pitch": "F",
+            "duration": "eighth",
+            "embellishment": "gg",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "HA",
+            "duration": "eighth",
+            "embellishment": "none",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "F",
+            "duration": "dotted_eighth",
+            "embellishment": "hdbf",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "E",
+            "duration": "cut_eighth",
+            "embellishment": "none",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "C",
+            "duration": "quarter",
+            "embellishment": "dbc",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          }
+        ],
+        "time_sig": "3/4",
+        "repeat_start": false,
+        "repeat_end": false,
+        "first_volta": false,
+        "second_volta": false
+      },
+      {
+        "notes": [
+          {
+            "pitch": "LA",
+            "duration": "dotted_eighth",
+            "embellishment": "gg",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "C",
+            "duration": "cut_eighth",
+            "embellishment": "dg",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "E",
+            "duration": "quarter",
+            "embellishment": "dbe",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "C",
+            "duration": "eighth",
+            "embellishment": "dbc",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "LA",
+            "duration": "eighth",
+            "embellishment": "eg",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          }
+        ],
+        "time_sig": "3/4",
+        "repeat_start": false,
+        "repeat_end": false,
+        "first_volta": false,
+        "second_volta": false
+      },
+      {
+        "notes": [
+          {
+            "pitch": "D",
+            "duration": "dotted_eighth",
+            "embellishment": "thrd",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "C",
+            "duration": "cut_eighth",
+            "embellishment": "none",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "B",
+            "duration": "quarter",
+            "embellishment": "dbb",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "LA",
+            "duration": "quarter",
+            "embellishment": "lgg",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          }
+        ],
+        "time_sig": "3/4",
+        "repeat_start": false,
+        "repeat_end": true,
+        "first_volta": false,
+        "second_volta": false
+      },
+      {
+        "notes": [
+          {
+            "pitch": "HA",
+            "duration": "dotted_eighth",
+            "embellishment": "hdbha",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "HG",
+            "duration": "cut_eighth",
+            "embellishment": "none",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "F",
+            "duration": "quarter",
+            "embellishment": "hdbf",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "HA",
+            "duration": "dotted_eighth",
+            "embellishment": "none",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "HG",
+            "duration": "cut_eighth",
+            "embellishment": "none",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          }
+        ],
+        "time_sig": "3/4",
+        "repeat_start": true,
+        "repeat_end": false,
+        "first_volta": false,
+        "second_volta": false
+      },
+      {
+        "notes": [
+          {
+            "pitch": "F",
+            "duration": "eighth",
+            "embellishment": "gg",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "HA",
+            "duration": "eighth",
+            "embellishment": "none",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "F",
+            "duration": "dotted_eighth",
+            "embellishment": "hdbf",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "E",
+            "duration": "cut_eighth",
+            "embellishment": "none",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "C",
+            "duration": "quarter",
+            "embellishment": "dbc",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          }
+        ],
+        "time_sig": "3/4",
+        "repeat_start": false,
+        "repeat_end": false,
+        "first_volta": false,
+        "second_volta": false
+      },
+      {
+        "notes": [
+          {
+            "pitch": "HA",
+            "duration": "dotted_eighth",
+            "embellishment": "hdbha",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "F",
+            "duration": "cut_eighth",
+            "embellishment": "none",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "E",
+            "duration": "quarter",
+            "embellishment": "dbe",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "C",
+            "duration": "eighth",
+            "embellishment": "dbc",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "E",
+            "duration": "eighth",
+            "embellishment": "none",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          }
+        ],
+        "time_sig": "3/4",
+        "repeat_start": false,
+        "repeat_end": false,
+        "first_volta": false,
+        "second_volta": false
+      },
+      {
+        "notes": [
+          {
+            "pitch": "HA",
+            "duration": "eighth",
+            "embellishment": "hdbha",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "C",
+            "duration": "eighth",
+            "embellishment": "none",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "C",
+            "duration": "quarter",
+            "embellishment": "dbc",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "B",
+            "duration": "quarter",
+            "embellishment": "eg",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          }
+        ],
+        "time_sig": "3/4",
+        "repeat_start": false,
+        "repeat_end": false,
+        "first_volta": false,
+        "second_volta": false
+      },
+      {
+        "notes": [
+          {
+            "pitch": "LA",
+            "duration": "dotted_eighth",
+            "embellishment": "gg",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "C",
+            "duration": "cut_eighth",
+            "embellishment": "dg",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "E",
+            "duration": "quarter",
+            "embellishment": "dbe",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "C",
+            "duration": "eighth",
+            "embellishment": "dbc",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "E",
+            "duration": "eighth",
+            "embellishment": "none",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          }
+        ],
+        "time_sig": "3/4",
+        "repeat_start": false,
+        "repeat_end": false,
+        "first_volta": false,
+        "second_volta": false
+      },
+      {
+        "notes": [
+          {
+            "pitch": "F",
+            "duration": "eighth",
+            "embellishment": "gg",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "HA",
+            "duration": "eighth",
+            "embellishment": "none",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "F",
+            "duration": "dotted_eighth",
+            "embellishment": "hdbf",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "E",
+            "duration": "cut_eighth",
+            "embellishment": "none",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "C",
+            "duration": "quarter",
+            "embellishment": "dbc",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          }
+        ],
+        "time_sig": "3/4",
+        "repeat_start": false,
+        "repeat_end": false,
+        "first_volta": false,
+        "second_volta": false
+      },
+      {
+        "notes": [
+          {
+            "pitch": "LA",
+            "duration": "dotted_eighth",
+            "embellishment": "gg",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "C",
+            "duration": "cut_eighth",
+            "embellishment": "dg",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "E",
+            "duration": "quarter",
+            "embellishment": "dbe",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "C",
+            "duration": "eighth",
+            "embellishment": "dbc",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "LA",
+            "duration": "eighth",
+            "embellishment": "eg",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          }
+        ],
+        "time_sig": "3/4",
+        "repeat_start": false,
+        "repeat_end": false,
+        "first_volta": false,
+        "second_volta": false
+      },
+      {
+        "notes": [
+          {
+            "pitch": "D",
+            "duration": "dotted_eighth",
+            "embellishment": "thrd",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "C",
+            "duration": "cut_eighth",
+            "embellishment": "none",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "B",
+            "duration": "quarter",
+            "embellishment": "dbb",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          },
+          {
+            "pitch": "LA",
+            "duration": "quarter",
+            "embellishment": "lgg",
+            "tied": false,
+            "fermata": false,
+            "accent": false
+          }
+        ],
+        "time_sig": "3/4",
+        "repeat_start": false,
+        "repeat_end": true,
+        "first_volta": false,
+        "second_volta": false
+      }
+    ],
+    "highlights": {
+      "0": "#b3d9ff",
+      "1": "#b3ffcc",
+      "3": "#ffe0b3",
+      "4": "#b3d9ff",
+      "5": "#b3ffcc",
+      "6": "#e8b3ff",
+      "7": "#ffb3b3",
+      "9": "#b3ffcc",
+      "11": "#ffe0b3",
+      "12": "#b3d9ff",
+      "13": "#b3ffcc",
+      "14": "#e8b3ff",
+      "15": "#ffb3b3"
+    }
+  }
+}
